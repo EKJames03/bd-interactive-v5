@@ -10,7 +10,7 @@ async function sendData() {
     msg.style.color = "#007bff";
 
     try {
-        let response = await fetch("https://script.google.com/macros/s/AKfycbxTLaEjh_eDleIUMZctXNdMGnKiaJsQhQ3rXvFcUlVrLjqkb_qghvmyYG7VMyibS4mEBA/exec", {
+        let response = await fetch("https://script.google.com/macros/s/AKfycby2dzC6sXVFV1d5bIguYT_3K1ea72dGCyj3LsvBsJdecKC67oeQTiR28IYdkG1HCMXZbA/exec", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json
