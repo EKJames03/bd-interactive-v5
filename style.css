@@ -1,0 +1,28 @@
+
+body { margin:0; padding:0; display:flex; justify-content:center; }
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin:auto;
+    background-image: url('bd_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bubble {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    padding:5px;
+    font-size:14px;
+    resize: vertical;
+}
+button {
+    margin:20px;
+    padding:10px 20px;
+    font-size:16px;
+}
+@media (max-width: 600px) {
+    .bubble { font-size:12px; }
+}
