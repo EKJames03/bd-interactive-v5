@@ -13,7 +13,7 @@ async function sendData() {
         let response = await fetch("https://script.google.com/macros/s/AKfycbxTLaEjh_eDleIUMZctXNdMGnKiaJsQhQ3rXvFcUlVrLjqkb_qghvmyYG7VMyibS4mEBA/exec", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json
             },
             body: JSON.stringify(data)
         });
